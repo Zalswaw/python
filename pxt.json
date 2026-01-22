@@ -1,0 +1,29 @@
+{
+    "name": "sd",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "microphone": "*",
+        "esp8266-wifi-only": "github:Bluey1562/esp8266-wifi-only#ac4ca5a0448b25df5a2002370f77c1765b9268d3",
+        "pxt-wifi": "github:solderedelectronics/pxt-wifi#v1.1.0",
+        "pxt-esp8266": "github:cytrontechnologies/pxt-esp8266#v2.0.2"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "main.py"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "8.0.18",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}
